@@ -42,25 +42,20 @@
             <version>3.0.3</version>
         </dependency>
 
-       <!-- необходима, так как на нее ссылается плагин com.nickwongdev (см.ниже,
-        определен в секции <plugins>)-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
             <version>5.3.9</version>
         </dependency>
 
-          <!--1.9.8.M1 - не подойдет;
-          1.9.5 - работает с плагином com.nickwongdev-->
+
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.9.5</version>
         </dependency>
 
-        <!--без этого не возможно будет запустить работу AspectJ
-       1.9.8.M1 - не подойдет
-       1.9.5 - работает с плагином com.nickwongdev-->
+
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
